@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.light {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #ffffff;
+  color: #111111;
+}
+
+.dark {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #111111;
+  color: #ffffff;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.dark .card {
+  background: rgba(255, 255, 255, 0.1);
+}
